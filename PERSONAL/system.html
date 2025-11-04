@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+
+    <style>
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Amazon logo at top */
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        /* Row class to arrange tables side by side */
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        /* Table styling */
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 15px;
+        }
+
+        th {
+            background-color: #232f3e;
+            color: white;
+            font-size: 20px;
+        }
+
+        td img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Amazon Logo -->
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" width="200">
+    </div>
+
+    <hr color="black" size="3">
+
+    <!-- Laptops Section -->
+    <div class="row">
+        <table>
+            <tr>
+                <th colspan="2">Laptops</th>
+            </tr>
+            <tr>
+                <td>
+                    Lenovo <br>
+                    <img src="https://m.media-amazon.com/images/I/71K84j2O8wL._AC_SL1500_.jpg" alt="Lenovo Laptop">
+                </td>
+                <td>
+                    MacBook <br>
+                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310?wid=800&hei=600" alt="MacBook">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HP <br>
+                    <img src="https://m.media-amazon.com/images/I/71s1LRpaprL._AC_SL1500_.jpg" alt="HP Laptop">
+                </td>
+                <td>
+                    Dell <br>
+                    <img src="https://m.media-amazon.com/images/I/61VfL-aiToL._AC_SL1500_.jpg" alt="Dell Laptop">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Mobiles Section -->
+    <div class="row">
+        <table>
+            <tr>
+                <th colspan="2">Mobiles</th>
+            </tr>
+            <tr>
+                <td>
+                    Samsung <br>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911bzegins/gallery/in-galaxy-s23-s911-sm-s911bzegins-thumb-534056335?$650_519_PNG$" alt="Samsung Mobile">
+                </td>
+                <td>
+                    iPhone <br>
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone14-select-202209-6-1inch?wid=940&hei=1112" alt="iPhone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Redmi <br>
+                    <img src="https://m.media-amazon.com/images/I/71yTvU9VgdL._AC_SL1500_.jpg" alt="Redmi Mobile">
+                </td>
+                <td>
+                    Vivo <br>
+                    <img src="https://m.media-amazon.com/images/I/71Bf-NzYefL._AC_SL1500_.jpg" alt="Vivo Mobile">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bikes Section -->
+    <div class="row">
+        <table>
+            <tr>
+                <th colspan="2">Bikes</th>
+            </tr>
+            <tr>
+                <td>
+                    Royal Enfield <br>
+                    <img src="https://bd.gaadicdn.com/processedimages/royal-enfield/classic-350/494X300/classic-350641d64e1dbfc1.jpg" alt="Royal Enfield">
+                </td>
+                <td>
+                    Yamaha <br>
+                    <img src="https://bd.gaadicdn.com/processedimages/yamaha/mt-15-v2/494X300/mt-15-v2633d7b6e8a118.jpg" alt="Yamaha Bike">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Honda <br>
+                    <img src="https://bd.gaadicdn.com/processedimages/honda/cb350/494X300/cb350663b1f5d27c69.jpg" alt="Honda Bike">
+                </td>
+                <td>
+                    Suzuki <br>
+                    <img src="https://bd.gaadicdn.com/processedimages/suzuki/gixxer-sf/494X300/gixxer-sf6419e2b4a79c5.jpg" alt="Suzuki Bike">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Appliances Section -->
+    <div class="row">
+        <table>
+            <tr>
+                <th colspan="2">Electrical Appliances</th>
+            </tr>
+            <tr>
+                <td>
+                    Oven <br>
+                    <img src="https://m.media-amazon.com/images/I/71dQBGsGbXL._AC_SL1500_.jpg" alt="Oven">
+                </td>
+                <td>
+                    Refrigerator <br>
+                    <img src="https://m.media-amazon.com/images/I/61ZsG2v7gxL._AC_SL1500_.jpg" alt="Refrigerator">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Washing Machine <br>
+                    <img src="https://m.media-amazon.com/images/I/71Xat4i+aLL._AC_SL1500_.jpg" alt="Washing Machine">
+                </td>
+                <td>
+                    Mixer <br>
+                    <img src="https://m.media-amazon.com/images/I/61G7t8TQb+L._AC_SL1500_.jpg" alt="Mixer">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
